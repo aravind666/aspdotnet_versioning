@@ -11,7 +11,8 @@ using System.Threading.Tasks;
 namespace Shopers.API.Controllers
 {
     [ApiVersion("1.0")]
-    [Route("v{v:apiVersion}/products")]
+    // [Route("v{v:apiVersion}/products")]
+    [Route("products")]
     [ApiController]
     public class ProductsV1_0Controller : ControllerBase
     {
